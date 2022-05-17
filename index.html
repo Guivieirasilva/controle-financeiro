@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="asc/CSS/style.css">
+    <link rel="shortcut icon" href="asc/imagens/money-svgrepo-com.svg" type="image/x-icon">
+
+    <title>Planejamento financeiro - controle seu dinheiro e tenha uma vida melhor</title>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div>
+                <h1>Planejamento Financeiro</h1>
+
+                <p>Tenha controle sob o seu dinheiro e obtenha a consistencia de investi-lo mês á mês</p>
+
+            </div>
+        </header>
+        <main>
+
+            <section>
+                <span>A seguir Informe sua renda mensal para obter informações sobre como separar seu dinheiro em cada situação</span><br>
+
+                <strong>R$:</strong> <input class="renda" type="number">
+                <button type="button" id="calcular" onclick="displayOn()">Confirmar</button>
+
+            </section>
+            <section class="resultados" id="resultados">
+                <ul>
+                    <li>Necessidades 
+                        <img class="Interrogação" src="asc/imagens/question-svgrepo-com.svg" alt="Ponto de Interrogação">
+                        <div>Hello World</div>
+                        <p id="ResultadoNecessidades"></p>
+                    </li>
+
+                    <li>Lazer 
+                        <img class="Interrogação" src="asc/imagens/question-svgrepo-com.svg" alt="Ponto de Interrogação">
+
+                        <p id="ResultadoLazer"></p>
+                    </li>
+
+                    <li>Objetivos de curto prazo 
+                        <img class="Interrogação" src="asc/imagens/question-svgrepo-com.svg" alt="Ponto de Interrogação">
+
+                        <p id="ResultadoObjetivos"></p>
+                    </li>
+
+                    <li>Independencia Financeira
+                        <img class="Interrogação" src="asc/imagens/question-svgrepo-com.svg" alt="Ponto de Interrogação">
+
+                        <p id="resultadoIndependencia"></p>
+                    </li>
+
+                    <li>Caixa
+                        <img class="Interrogação" src="asc/imagens/question-svgrepo-com.svg" alt="Ponto de Interrogação">
+
+                        <p id="resultadoCaixa"></p>
+                    </li>
+                </ul>
+            </section>
+        </main>
+    </div>
+
+
+    <script src="asc/JS/app.js"></script>
+</body>
+</html>
