@@ -25,38 +25,90 @@
                 <span>A seguir Informe sua renda mensal para obter informações sobre como separar seu dinheiro em cada situação</span><br>
 
                 <strong>R$:</strong> <input class="renda" type="number">
-                <button type="button" id="calcular" onclick="displayOn()">Confirmar</button>
+                <button type="button" id="calcular" onclick="display()">Confirmar</button>
 
             </section>
             <section class="resultados" id="resultados">
                 <ul>
                     <li>Necessidades 
-                        <img class="Interrogação" src="asc/imagens/question-svgrepo-com.svg" alt="Ponto de Interrogação">
-                        <div>Hello World</div>
+                        <Button class="button">
+                             <img class="Interrogação" src="asc/imagens/question-svgrepo-com.svg" alt="Ponto de Interrogação"> 
+                        </Button>
+                        <div class="popup-wrapper" data-popup="wrapper">
+                            <div class="popup">
+                                <div class="popup-close">x</div>
+                                <div class="popup-content">
+                                    <h3>Necessidades</h3>
+                                    <p>60% da sua renda será destinada as suas necessidades, que são contas que realmente são necessarias a você, como conta de Luz, Água, Gás de cozinha, compras de supermercado, boletos da faculdade entre outros</p>
+                                </div>
+                            </div>
+                        </div>
+
                         <p id="ResultadoNecessidades"></p>
                     </li>
 
                     <li>Lazer 
-                        <img class="Interrogação" src="asc/imagens/question-svgrepo-com.svg" alt="Ponto de Interrogação">
-
+                        <Button class="button">
+                            <img class="Interrogação" src="asc/imagens/question-svgrepo-com.svg" alt="Ponto de Interrogação"> 
+                       </Button>
+                       <div class="popup-wrapper">
+                        <div class="popup">
+                            <div class="popup-close">x</div>
+                            <div class="popup-content">
+                                <h3>Lazer</h3>
+                                <p>15% da sua renda será destinado ao seu lazer, o dinheiro para sair com a namorada, tomar um cerveja com amigos, comprar um lanche durante ou ao final de semana, pois não ainda você deixar de fazer oque gosta para começar a investir, mas tudo tem que estar planejado.</p>
+                            </div>
+                        </div>
+                    </div>
                         <p id="ResultadoLazer"></p>
                     </li>
 
                     <li>Objetivos de curto prazo 
-                        <img class="Interrogação" src="asc/imagens/question-svgrepo-com.svg" alt="Ponto de Interrogação">
-
+                        <Button class="button">
+                            <img class="Interrogação" src="asc/imagens/question-svgrepo-com.svg" alt="Ponto de Interrogação"> 
+                       </Button>
+                       <div class="popup-wrapper">
+                        <div class="popup">
+                            <div class="popup-close">x</div>
+                            <div class="popup-content">
+                                <h3>Objetivos</h3>
+                                <p>10% da sua renda será destinada a seus objetivos de curto prazo, se você quer comprar um celular, um notebook, um carro ou algo que goste, terá que se planejar para não se individar, esse dinheiro você pode investir no <a href="https://www.infomoney.com.br/guias/tesouro-direto/" target="_blank">Tesouro Direto </a> um dos investimentos mais seguros do país </p>
+                            </div>
+                        </div>
+                    </div>
                         <p id="ResultadoObjetivos"></p>
                     </li>
 
                     <li>Independencia Financeira
-                        <img class="Interrogação" src="asc/imagens/question-svgrepo-com.svg" alt="Ponto de Interrogação">
+                        <Button class="button">
+                            <img class="Interrogação" src="asc/imagens/question-svgrepo-com.svg" alt="Ponto de Interrogação"> 
+                       </Button>
+                       <div class="popup-wrapper">
+                        <div class="popup">
+                            <div class="popup-close">x</div>
+                            <div class="popup-content">
+                                <h3>Independencia Financeira</h3>
+                                <p>10% da sua renda será destinada a investir em <a href="https://www.infomoney.com.br/guias/renda-variavel/" target="_blank">Renda Variável</a>, se deseja atingir sua liberdade financeira terá que se arriscar, comprar ativos, investir em ações, criptomoedas, fundos imobiliarios entre outros, de forma diversificade. Para assim conseguir manter o seu padrão de vida desejado e trabalhar por opção não por obrigação.</p>
+                            </div>
 
+                        </div>
+                    </div>
                         <p id="resultadoIndependencia"></p>
                     </li>
 
                     <li>Caixa
-                        <img class="Interrogação" src="asc/imagens/question-svgrepo-com.svg" alt="Ponto de Interrogação">
-
+                        <Button class="button">
+                            <img class="Interrogação" src="asc/imagens/question-svgrepo-com.svg" alt="Ponto de Interrogação"> 
+                       </Button>
+                       <div class="popup-wrapper">
+                        <div class="popup">
+                            <div class="popup-close">x</div>
+                            <div class="popup-content">
+                                <h3>Caixa</h3>
+                                <p>5% da sua renda será destinado ao dinheiro em caixa, como diversos investimentos variam de preços ao decorrer do tempo, você deve ter uma parte em caixa e analisar a hora certa de comprar os ativos. </p>
+                            </div>
+                        </div>
+                    </div>
                         <p id="resultadoCaixa"></p>
                     </li>
                 </ul>
