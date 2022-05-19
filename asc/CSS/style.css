@@ -1,11 +1,10 @@
 @import url(base.css);
+@import url(popup.css);
 
 body{ 
     display: flex;
     justify-content: center;
     height: 100vh;
-    background-image: linear-gradient(to bottom, #FBFBF8, #F4F9FC);
-    background-attachment: fixed;
 }
 header{
     width: 600px;
@@ -28,6 +27,7 @@ main{
     margin: auto;
 }
 .container{
+    position: absolute;
     text-align: center;
     display: block;
     background-color: var(--cor-container);
@@ -39,18 +39,10 @@ li{
     list-style: none;
 }
 
-
-#resultados{
-    /* display: none; */
-    letter-spacing: 2px;
-    font-weight: 500;
-
-
-}
 strong{
     letter-spacing: 2px;
 }
-button{
+#calcular{
     font-size: large;
     margin-left: 1rem;
     border-radius: 5px;
@@ -60,7 +52,7 @@ button{
     transition: .4s;
 
 }
-button:active{
+#calcular:active{
     background-color: #00B4E7;
     color: snow;
     transform: scale(.9,.9);
@@ -85,14 +77,27 @@ input[type=number] {
 
 }
 #resultados{
+    letter-spacing: 2px;
+    font-weight: 500;
     display: none;
     transition: .4s;
 }
-img{
+button{
+    background-color: transparent;
+    border: none;
+    border-radius: 50%;
     cursor: pointer;
     transition: .4s;
 }
-img:active{
+button:active{
     transform: scale(.9,.9);
-
+}
+a{
+    text-decoration: none;
+    color: blueviolet;
+    transition: .3s;
+}
+a:hover{
+    color: blue;
+    transform: scale(1.1, 1.1);
 }
