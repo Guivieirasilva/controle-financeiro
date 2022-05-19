@@ -22,17 +22,33 @@
 .modoClaro{
  --bg: var(--whiteSmoke);
  --bgDiv: var(--white);
+ --bgMode: var(--purpleDark);
  --FonteCor: var(--black) ;
  --botaoCor: var(--whiteBlue) ;
  --linkCor: var(--violet);
+ 
 }
 .modoEscuro{
  --bg: var(--purpleDark);
  --bgDiv: var(--purple);
+ --bgMode: var(--whiteSmoke);
  --FonteCor: var(--white);
  --botaoCor: var(--whiteBlue);
  --linkCor: var(--pink);
 
 }
-/* #00B4E7
-#040220 */
+.btn{
+    position: absolute;
+    top: 20px;
+    left: 250px;
+    height: 50px;
+    width: 50px;
+    border-radius: 45%;
+    border: none;
+    color: black;
+    background-color: var(--bgMode);
+}
+.sol{
+    padding: 2px auto;
+    margin: 2px auto;
+}
