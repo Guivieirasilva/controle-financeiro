@@ -18,6 +18,7 @@ h1{
 main{
     color:var(--FonteCor);
     background-color: var(--bgDiv);
+    border: 2px solid black;
     border-radius: 10px;
     font-weight: 300;
     padding: 15px;
