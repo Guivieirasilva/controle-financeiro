@@ -9,8 +9,11 @@
 
     <title>Planejamento financeiro - controle seu dinheiro e tenha uma vida melhor</title>
 </head>
-<body class=" modoEscuro modoClaro">
-    <button class="btn"><img src="asc/imagens/sun-svgrepo-com (1).svg" alt="imagem do Sol" class="sol"></button>
+<body id="bodytema" class="modoClaro">
+    <div class="tema">
+        <input type="checkbox" name="btn" id="btn">
+        <label for="btn"></label>
+    </div>
     <div class="container">
         <header>
             <div>
@@ -25,7 +28,7 @@
             <section>
                 <span>A seguir Informe sua renda mensal para obter informações sobre como separar seu dinheiro em cada situação</span><br>
 
-                <strong>R$:</strong> <input class="renda" type="number">
+                <strong>R$:</strong> <input class="renda" type="number" required>
                 <button type="button" id="calcular" onclick="display()">Confirmar</button>
 
             </section>

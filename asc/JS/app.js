@@ -1,4 +1,4 @@
-const RENDA = document.querySelector("input")
+const RENDA = document.querySelector("input.renda")
 
 const RESULTADOS =document.querySelector("#resultados")
 
@@ -17,6 +17,16 @@ const CALCULAR = document.getElementById("calcular")
 const BOTAO = document.querySelectorAll('.button')
 
 const POPUP = document.querySelectorAll('div.popup-wrapper')
+
+const BTN = document.getElementById("btn")
+
+function alteraTema(){
+
+BTN.addEventListener("change", (e) => {
+    document.body.classList.toggle("modoEscuro", e.target.checked)
+})
+
+}
 
 function abrirPopup(){
 
@@ -54,15 +64,8 @@ function fecharPopup(){
 function display() {
     var resultado = document.getElementsByClassName("resultados")[0]
 
-    if(Number(RENDA.value) > "500"  ){
-        resultado.style.display = "block" 
-        console.log("foi");
     } else {
         resultado.style.display = "block" 
-        resultado.innerHTML = `<span>O valor inserido precisa ser maior que R$500,00</span>`
-        setTimeout(
-        'location.reload()', 2000
-        )
     }
 }
 
@@ -83,6 +86,7 @@ function calcular(){
         }) 
 }
 
+alteraTema()
 calcular()
 abrirPopup()
 fecharPopup()

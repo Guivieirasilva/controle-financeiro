@@ -1,13 +1,7 @@
 @import url(base.css);
 @import url(popup.css);
 
-body{ 
-    background: var(--bg);
-    display: flex;
-    justify-content: center;
-    height: 100vh;
-    color: var(--FonteCor);
-}
+
 header{
     width: 600px;
 }
