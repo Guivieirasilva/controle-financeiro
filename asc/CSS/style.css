@@ -118,6 +118,9 @@ a:hover{
     main p {
         font-size: medium;
     }
+    li {
+        font-size: 19px;    
+    }
     .popup{
         width: 295px;
     }
