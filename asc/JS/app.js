@@ -64,6 +64,9 @@ function fecharPopup(){
 function display() {
     var resultado = document.getElementsByClassName("resultados")[0]
 
+    if(RENDA.value <= 500  ){
+        alert(`[ERRO] O valor Inserido precisa ser maior que R$500,00`)
+        resultado.style.display = "none"
     } else {
         resultado.style.display = "block" 
     }
