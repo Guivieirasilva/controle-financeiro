@@ -99,3 +99,26 @@ a:hover{
     color: blue;
     transform: scale(1.1, 1.1);
 }
+@media screen and (max-width: 700px){
+    header{
+        width: 400px;
+    }
+    header p {
+        font-size: medium;
+    }
+    h1{
+        font-size: large;
+    }
+    main{
+        width: 350px;
+    }
+    main span {
+        font-size: medium;
+    }
+    main p {
+        font-size: medium;
+    }
+    .popup{
+        width: 295px;
+    }
+}

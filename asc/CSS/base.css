@@ -47,17 +47,18 @@ body{
 }
 .tema{
     position: fixed;
-    top: 10px;
-    right: 15px;
+    top: 1rem;
+    right: 2rem ;
+    z-index: 2;
 }
 label{
     background-color: var(--purpleDark);
     border-radius: 50%;
     display: inline-block;
-    width: 40px;
-    height: 40px;
+    width: 30px;
+    height: 30px;
     cursor: pointer;
-    user-select: none;
+    /* user-select: none; */
     transition: background 0.5s linear;
 }
 body.modoEscuro label {

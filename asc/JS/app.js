@@ -22,7 +22,7 @@ const BTN = document.getElementById("btn")
 
 function alteraTema(){
 
-BTN.addEventListener("change", (e) => {
+BTN.addEventListener("click", (e) => {
     document.body.classList.toggle("modoEscuro", e.target.checked)
 })
 
