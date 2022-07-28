@@ -1,6 +1,8 @@
 <h1> Planejamento Financeiro <h1>
-<p> O projeto ajuda a obter um planejamento sobre seu dinheiro, saber como separa-lo para cada ocasião e investi-lo de forma correta e segura ! </p>
- <a href="https://guivieirasilva.github.io/controle-financeiro/">Link</a>
+
+<p>O projeto ajuda a obter um planejamento sobre seu dinheiro, saber como separa-lo para cada ocasião e investi-lo de forma correta e segura ! </p>
+
+ <a href="https://guivieirasilva.github.io/controle-financeiro/">projeto</a>
  
  <h2> Tecnologias </h2>
  <ul>
